@@ -73,9 +73,6 @@ a:hover{
     height: auto;
     max-width:35rem;
  }
- .audio-dev{
-
- }
  .audio-dev>p{
     font-weight: 800;
  }
@@ -83,10 +80,28 @@ a:hover{
 display: flex;
 flex-direction: row;
 justify-content: flex-end;
-align-items: baseline;
+align-items: center;
 gap:1rem;
  }
  
  footer img{
-width: 3rem;
+width: 2rem; 
+}
+
+ @media(max-width:600px){
+    .container{
+        display: block;
+    }
+    #page{
+     height: auto;
+     max-width:25rem;
+    }
+    footer{
+        margin-top: 1rem;
+        display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap:1rem;
+    }
  }
