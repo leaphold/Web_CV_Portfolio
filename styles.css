@@ -64,7 +64,7 @@ a {
          }
 
   
-    @media (max-width:760px){
+    @media (max-width:900px){
         .subtitle{
             flex-direction: column;
             justify-content: center;
