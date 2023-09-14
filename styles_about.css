@@ -8,14 +8,38 @@ body{
     border-radius: 30px;
     border:2px solid rgba(255, 0, 0, 0.575);
 }
+a {
+    font-family: 'Space Grotesk', sans-serif; 
+    color: #fab282;
+    font-style: normal;
+    text-decoration: none;
+  }
+  #CV{
+    color: #ff0000;
 
+  }
 h1{
     font-family: 'Space Grotesk', sans-serif;
     background-color: #cceebc86;
     border-radius: 8px;
     padding: 4px;
     text-align: center;
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Space Grotesk', sans-serif;
+    margin: 2rem -10px 0.5rem -10px;
+}
+.subtitle{
+    background-color: #ffd9c0ad;
+    color: #648fa8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Space Grotesk', sans-serif;
+    margin: 2rem -10px 0.5rem -10px;
 }
 
 h2{
