@@ -6,12 +6,15 @@ h1{
     color: #8CC0DE;
     font-weight: 900px;
     background-color:#FFD9C0 ;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 35vw;
     border-bottom-left-radius:80px ;
     margin-top:-10px;
-    padding-bottom: 25px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 40rem;
+    border-bottom-left-radius:80px ;
+    margin-top:-10px;
+    margin-bottom: 0px;
+    padding-bottom: 1.5rem;
 }
 .title{
     display: flex;
@@ -76,5 +79,21 @@ a {
                 justify-content: center;
                 margin-top:0.5rem;
             }
-      }
+             footer img{
+        width: 2rem;
+         }
+         .subtitle{
+        margin-top: 5rem; 
+         }
+         h1{
+                 padding-left: 2rem;
+                 padding-right: 2rem;
+                 padding-top: 30rem;
+                 border-bottom-left-radius:80px ;
+                 margin-top:-10px;
+                 margin-bottom: 0px;
+                 padding-bottom: 1.5rem;
+        }
+        }
+      
   

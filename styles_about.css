@@ -158,6 +158,19 @@ padding-left: 20px;
 a:hover{
     color: #ff0000;
     font-weight: 900px;}
+    
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: baseline;
+        gap:1rem;
+         }
+         
+         footer img{
+        width: 2rem;
+         }
+
 
 @media (max-width:750px){
     .info{
